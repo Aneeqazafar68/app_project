@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_Code"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.apps.presentationLayer.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.apps.presentationLayer.Hotel_Selection"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Reservations_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Hotel_Registration_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Hotel_Reservation_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Reserve_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Vendor_Choose_Option_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Customer_Choose_Option_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Register_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Login_Screen"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.apps.presentationLayer.Main_Screen"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>
